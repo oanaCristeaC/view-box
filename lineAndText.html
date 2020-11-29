@@ -48,7 +48,7 @@
   
   <rect x="0" y="0" width="100%" height="100%" fill="green" opacity="25%"/>
 </svg>
-</html>
+
 
 
 <!-- Final cal text always on top of stroke -->
@@ -63,3 +63,19 @@
 
   <rect x="0" y="0" width="100%" height="100%" fill="green" opacity="25%"/>
 </svg>
+
+
+<!-- Final cal stroke always at top -->
+<!-- viewbox y1 = -textSize - stroke-width -->
+<svg height="250" viewBox="0 -20 240 150" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .small { font: 40px serif;}
+  </style>
+  <!-- Text on bottom: textY = textSize  lineY1Y2 = - stroke-width/2 -->
+  <text x="0" y="40" class="small">MtHtext</text>
+  <line x1="0" y1="-10" y2="-10" stroke-width="20" x2="33.61876181957629" stroke="#0066ff" opacity="75%" ></line>
+
+  <rect x="0" y="0" width="100%" height="100%" fill="green" opacity="25%"/>
+</svg>
+
+</html>
